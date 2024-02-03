@@ -226,7 +226,7 @@ task.spawn(function()
                         local yeas = string.split(distance, " ")
                         for i,v in next, yeas do
                             if tonumber(v) then
-                                if tonumber(v) < 0.1 then
+                                if tonumber(v) < 2.2 then
                                     Systems:WaitForChild("Jobs"):WaitForChild("StartJob"):InvokeServer("TrailerDelivery", "6")
                                 else
                                     jobDistance = v
@@ -236,7 +236,7 @@ task.spawn(function()
                             end
                         end
                     end
-                until jobDistance and tonumber(jobDistance) > 0.1 or Driveworld["autodelivery"] == false
+                until jobDistance and tonumber(jobDistance) > 2.2 or Driveworld["autodelivery"] == false
                 if CompletionRegion:FindFirstChild("Primary") then
                     completepos = CompletionRegion:FindFirstChild("Primary").CFrame
                 end
