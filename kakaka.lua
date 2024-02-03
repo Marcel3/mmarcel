@@ -100,10 +100,10 @@ Main:Button({
 })
 
 Main:Button({
-    Name = "Support script creator :D",
-    Description = "some linkvertise",
+    Name = "😈sex penis",
+    Description = "Drück drauf und link wird kommiert",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/x3fall3nangel/FallAngelHub/main/MikeCash.lua"))()
+        loadstring(game:HttpGet("https://pornhub.com"))()
     end
 })
 
